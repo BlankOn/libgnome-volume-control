@@ -39,5 +39,5 @@ PKG_CHECK_MODULES(GVC, glib-2.0 >= 2.12 libpulse-mainloop-glib >= 4.0 libpulse >
 AC_SUBST(GVC_CFLAGS)
 AC_SUBST(GVC_LIBS)
 
-AC_CONFIG_FILES([Makefile src/Makefile])
+AC_CONFIG_FILES([Makefile src/Makefile po/Makefile.in])
 AC_OUTPUT
