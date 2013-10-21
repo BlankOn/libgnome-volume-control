@@ -10,6 +10,8 @@ libgnome_volume_control_la_CPPFLAGS =			\
 	-DWITH_INTROSPECTION		\
 	-DG_LOG_DOMAIN="\"Gvc\""
 
+AUTOMAKE_OPTIONS = subdir-objects
+
 libgnome_volume_control_la_gir_sources = 			\
 	../src/gvc-mixer-card.h			\
 	../src/gvc-mixer-card.c			\
